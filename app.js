@@ -24,3 +24,13 @@ function atualizarLista() {
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("Adicione pelo menos um participante.");
+        return;
+    }
+    
+    let indice = Math.floor(Math.random() * amigos.length);
+    let sorteado = amigos[indice];
+}
