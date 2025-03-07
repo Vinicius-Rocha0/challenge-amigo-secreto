@@ -33,6 +33,7 @@ function sortearAmigo() {
     
     let indice = Math.floor(Math.random() * amigos.length);
     let sorteado = amigos[indice];
+    exibirResultado(sorteado);
 }
 
 function exibirResultado(sorteado) {
